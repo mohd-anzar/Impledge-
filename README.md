@@ -10,7 +10,7 @@ Solve() Function ----- it takes three arguments first string to be checked,secon
 
  for i=0 to i=length of string and increment i by 1
  
-   if substr(0,i) present in trie then recursevly check for solve(substr(i,length of string -i),root of trie,l+1) == true then return true
+              if substr(0,i) present in trie then recursevly check for solve(substr(i,length of string -i),root of trie,l+1) == true then return true
    
  if for all i not found then return false
  end
@@ -32,6 +32,7 @@ Solve() Function ----- it takes three arguments first string to be checked,secon
    Time Taken To Process The Input File: 0 sec
    
    FOR INPUT 02---------
+   
    Longest Compound Word: ethylenediaminetetraacetates   
    
    Second Largest Compound Word: electroencephalographically
